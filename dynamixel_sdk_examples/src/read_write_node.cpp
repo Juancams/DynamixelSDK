@@ -40,13 +40,13 @@
 #include "read_write_node.hpp"
 
 // Control table address for X series (except XL-320)
-#define ADDR_OPERATING_MODE 11
-#define ADDR_TORQUE_ENABLE 64
-#define ADDR_GOAL_POSITION 116
-#define ADDR_PRESENT_POSITION 132
+#define ADDR_OPERATING_MODE 1
+#define ADDR_TORQUE_ENABLE 24
+#define ADDR_GOAL_POSITION 30
+#define ADDR_PRESENT_POSITION 37
 
 // Protocol version
-#define PROTOCOL_VERSION 2.0  // Default Protocol version of DYNAMIXEL X series.
+#define PROTOCOL_VERSION 1.0  // Default Protocol version of DYNAMIXEL X series.
 
 // Default setting
 #define BAUDRATE 57600  // Default Baudrate of DYNAMIXEL X series
